@@ -14,7 +14,7 @@ export default function Mouse(){
                 e => {
                     setPosition({
                         x: e.clientX-30,
-                        y: e.clientY-85+window.pageYOffset
+                        y: e.clientY-485+window.pageYOffset
                     })
                     
                 }}>
