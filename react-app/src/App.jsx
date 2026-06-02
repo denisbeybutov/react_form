@@ -9,6 +9,7 @@ import ChooseColor from './ChooseColor/ChooseColor'
 import RegistrationForm from './RegistrationForm/RegistrationForm'
 import Post from './Post/Post'
 import Mouse from './Mouse/Mouse'
+import RegistrationForm1 from './RegistrationForm1/RegistrationForm1'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,8 +17,11 @@ function App() {
   return (
     <>
       <h2>Объекты в состоянии</h2>
-      <p>Координаты мыши</p>
-      <Mouse/>
+      <p>Координаты</p>
+      {/* <Mouse/> */}
+      <br /><br />
+      Форма регистрации с общей функцией обработчиком
+      <RegistrationForm1/>
 
       <br /><br />
       <h2>Обработка форм</h2>
