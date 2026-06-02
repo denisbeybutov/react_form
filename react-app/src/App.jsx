@@ -11,6 +11,8 @@ import Post from './Post/Post'
 import Mouse from './Mouse/Mouse'
 import RegistrationForm1 from './RegistrationForm1/RegistrationForm1'
 import Notes from './Notes/Notes'
+import Notes2 from './Notes2/Notes2'
+import UserList from './UserList/UserList'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,12 @@ function App() {
   return (
     <>
       <h2>Массивы в состоянии</h2>
+      <p>Редактирование элемента массива</p>
+      <UserList/>
+      <br /><br />
       <p>Список заметок</p>
+      <Notes2/>
+      <br /><br />
       <Notes/>
       <br /><br />
 
