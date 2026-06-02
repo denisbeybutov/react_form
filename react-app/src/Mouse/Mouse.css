@@ -1,0 +1,22 @@
+.mouse {
+    position: relative;
+    background-color: rgb(102, 163, 102);
+    color: black;
+    height: 300px;    
+    overflow: hidden;
+}
+
+.wrapper {
+    padding: 30px;
+}
+
+.dot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    left: -5px;
+    top: -5px;
+    
+}

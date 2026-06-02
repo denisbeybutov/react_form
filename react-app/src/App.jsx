@@ -8,12 +8,19 @@ import InputForm from './InputForm/InputForm'
 import ChooseColor from './ChooseColor/ChooseColor'
 import RegistrationForm from './RegistrationForm/RegistrationForm'
 import Post from './Post/Post'
+import Mouse from './Mouse/Mouse'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <h2>Объекты в состоянии</h2>
+      <p>Координаты мыши</p>
+      <Mouse/>
+
+      <br /><br />
+      <h2>Обработка форм</h2>
       <Post/>
       <br /><br />
       Форма имени
@@ -27,6 +34,8 @@ function App() {
       <br /><br />
       Форма регистрации
       <RegistrationForm/>
+      
+      
       
       
     </>
