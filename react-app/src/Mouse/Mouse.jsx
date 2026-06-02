@@ -14,9 +14,9 @@ export default function Mouse(){
                 e => {
                     setPosition({
                         x: e.clientX-30,
-                        y: e.clientY-60
+                        y: e.clientY-85+window.pageYOffset
                     })
-                    console.log(e.clientX-30,e.clientY-60)
+                    
                 }}>
                     <div className="dot" style={{
                         transform: `translate(${position.x}px, ${position.y}px)`

@@ -10,15 +10,21 @@ import RegistrationForm from './RegistrationForm/RegistrationForm'
 import Post from './Post/Post'
 import Mouse from './Mouse/Mouse'
 import RegistrationForm1 from './RegistrationForm1/RegistrationForm1'
+import Notes from './Notes/Notes'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <h2>Массивы в состоянии</h2>
+      <p>Список заметок</p>
+      <Notes/>
+      <br /><br />
+
       <h2>Объекты в состоянии</h2>
       <p>Координаты</p>
-      {/* <Mouse/> */}
+      <Mouse/>
       <br /><br />
       Форма регистрации с общей функцией обработчиком
       <RegistrationForm1/>
